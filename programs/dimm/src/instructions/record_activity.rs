@@ -63,3 +63,4 @@ pub fn handler(ctx: Context<RecordActivity>, params: ActivityParams) -> Result<(
     Ok(())
 }
 
+

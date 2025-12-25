@@ -36,3 +36,4 @@ pub const DEFAULT_TX_LIMIT: u64 = 100_000_000; // 0.1 SOL
 /// Time window for daily limits (in seconds)
 pub const DAILY_WINDOW_SECONDS: i64 = 86400; // 24 hours
 
+
