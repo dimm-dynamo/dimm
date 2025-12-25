@@ -1,0 +1,35 @@
+{
+  "name": "dimm-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DIMM - Dynamic Intelligence Multi-Modal Solana Interface",
+  "scripts": {
+    "build": "anchor build && cd sdk && pnpm build",
+    "test": "anchor test",
+    "deploy": "anchor deploy",
+    "sdk:build": "cd sdk && pnpm build",
+    "sdk:test": "cd sdk && pnpm test",
+    "examples": "cd examples && pnpm install",
+    "clean": "anchor clean && rm -rf sdk/dist sdk/node_modules examples/node_modules"
+  },
+  "keywords": [
+    "solana",
+    "ai",
+    "agents",
+    "blockchain",
+    "web3",
+    "dimm",
+    "cnft"
+  ],
+  "author": "DIMM Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dimm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/dimm/issues"
+  },
+  "homepage": "https://github.com/yourusername/dimm#readme"
+}
+

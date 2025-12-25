@@ -1,0 +1,21 @@
+{
+  "name": "@dimm/examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example implementations using DIMM SDK",
+  "scripts": {
+    "basic": "ts-node basic-usage.ts",
+    "trading-bot": "ts-node ai-trading-bot.ts",
+    "multi-agent": "ts-node multi-agent-orchestration.ts"
+  },
+  "dependencies": {
+    "@dimm/sdk": "file:../sdk",
+    "@solana/web3.js": "^1.87.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
