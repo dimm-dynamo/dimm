@@ -5,8 +5,6 @@ Solana interface for AI agents using compressed NFT SubAccounts. Agents can inte
 **Idea from:** [Metaplex Foundation](https://github.com/metaplex-foundation) - Built using mpl-bubblegum and SPL Account Compression
 
 **Donation:** `5rcfn1B3WcHVdjfMmrnD2ZmGhLR9fevd5WH1YZtgGrwJ`  
-**CA:** `9JpRmN7abv3CCA14j9fMggqAvcTjhob1WTVZXJcbpump`
-
 ## Key Features
 
 - Zero private key exposure for AI agents
